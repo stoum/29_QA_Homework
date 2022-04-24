@@ -31,4 +31,4 @@ const checkAge = function(age) {
     checkAge("25")
     checkAge("25jk")
     checkAge("yr")
-    
+   
