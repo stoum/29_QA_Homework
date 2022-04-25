@@ -1,14 +1,19 @@
 const getWordStructure = function (word) {
     vowel = 'aeiouy'
-    count = 0
-    word = word.toLowerCase()
-        for (let a of word) {
-            if (vowel.includes(a)) {
-            count ++ 
-            }
+    dash = '-'
+    countLetter = 0, countDash = 0
+    
+        for (let a of word.toLowerCase()) {
+        if (vowel.includes(a)) {
+        countLetter ++ 
+            
+        } else if (dash.includes(a)){
+            countDash ++
         }
-        console.log (`In word ${word} are ${count} vowel letters and ${word.length-count}\
+        }
+        console.log (`In word ${word} are ${countLetter} vowel letters and ${word.length-countLetter-countDash}\
  consonant letters`)
  
 }
 getWordStructure('Ottollkaa')
+getWordStructure('Check---case')
