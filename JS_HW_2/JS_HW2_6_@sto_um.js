@@ -1,8 +1,7 @@
 
 function isPalindrom(word) {
 
-    word = word.toLowerCase()
-    if (word === word.split("").reverse().join("")) {
+    if (word.toLowerCase() === word.toLowerCase().split("").reverse().join("")) {
         
         console.log(`${word} is Palindrom`)
     
