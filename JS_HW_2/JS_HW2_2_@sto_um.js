@@ -1,4 +1,6 @@
 
+//Преобразовать 1 задачу в функцию, принимающую на вход степень, в которую будет возводиться число 2
+
 const degreeOfTwo = function(degree) {
     if (degree >= 1 && typeof (degree) != 'boolean') {
         i = 1
