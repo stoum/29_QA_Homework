@@ -1,6 +1,8 @@
 
+//Преобразовать задание 3* таким образом, чтобы возраст вводится используя функцию prompt в привязанной верстке
+
 const checkAge = function(age) {
-     
+    // if (/^\d+$/.test(age)) { 
     if ((!isNaN(+age)) && (isFinite(+age))) {
        
        let age_2 = 18

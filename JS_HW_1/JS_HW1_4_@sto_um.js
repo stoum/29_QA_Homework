@@ -1,4 +1,5 @@
 
+//Преобразовать задание 3* таким образом, чтобы возраст вводится используя функцию prompt в привязанной верстке
 
 const checkAge = function(age) {
   
@@ -28,3 +29,4 @@ const checkAge = function(age) {
     }
     let age = prompt("How old are you?", "Enter here");
     checkAge(age)
+    
