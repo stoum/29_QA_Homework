@@ -1,5 +1,6 @@
+
+#JS_HW_1:
 Description:
-JS_HW_1:
  - JS_HW1_Base_sto_um.js:
  1. Создать переменную “item_1”
  2. Присвоить переменной item_1 цифру 5.
