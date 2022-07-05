@@ -35,3 +35,5 @@ Description:
  31. Если age_1 >=  age_2 и age_1 <  age_3, вывести в консоль “Welcome  !”
  32. Если age_1  > age_3, вывести в консоль “Keep calm and look Culture channel”.
  33. Иначе выводите “Technical work”.
+
+ Преобразовать написанный код в 26-33 пунктах в функцию, принимающую на вход возраст.
