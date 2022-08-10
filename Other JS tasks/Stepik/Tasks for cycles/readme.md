@@ -1,5 +1,5 @@
 # Stepik - Tasks for Cycles
-Description
+Description:
 
 - St_Task_10.js - 
 "Найдите наибольший общий делитель чисел a и b. (алгоритм Евклида)"
