@@ -1,9 +1,0 @@
-function testCycle(n) {
-    let x=n
-    for(i=2; i<n; i+=2) {
-        x=x*(n-i)
-        }
-        console.log(x)
-    return x
-}
-testCycle(7)
