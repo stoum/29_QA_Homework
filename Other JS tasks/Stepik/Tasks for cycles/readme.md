@@ -3,8 +3,7 @@ Description:
 
 - St_Task_09.js - 
 "Дано число n (n > 0). Верните из функции значение двойного факториала: n!! = n * (n - 2) * (n - 4) * ... * 2n!!=n∗(n−2)∗(n−4)∗...∗2 (или 1, в зависимости от четности n). 
-
-/ Given a number n (n > 0). Return the value of the double factorial from the function: n!! = n * (n - 2) * (n - 4) * ... * 2n!!=n∗(n−2)∗(n−4)∗...∗2 (or 1, depending on the parity n)."
+// Given a number n (n > 0). Return the value of the double factorial from the function: n!! = n * (n - 2) * (n - 4) * ... * 2n!!=n∗(n−2)∗(n−4)∗...∗2 (or 1, depending on the parity n).//"
 
 - St_Task_10.js - 
 "Найдите наибольший общий делитель чисел a и b. (алгоритм Евклида)"
