@@ -1,6 +1,6 @@
 
 function testCycle(n) {
-    var x = []
+    let x = []
     for (i=n; i>=1; i=Math.floor(i/2)) {
         if (i%2) {
             x.unshift(1);
