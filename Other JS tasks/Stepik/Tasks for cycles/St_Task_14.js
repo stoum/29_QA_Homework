@@ -9,7 +9,6 @@ function testCycle(n) {
         }
     }
     console.log(x.join(''))
-    //return x.join('');
 }
     testCycle(19)
 
