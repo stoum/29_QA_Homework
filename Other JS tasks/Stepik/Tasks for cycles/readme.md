@@ -16,3 +16,6 @@ Description:
 
 - St_Task_14.js - 
 "Дано положительное число n. Переведите его в двоичную систему счисления. // A positive number n is given. Convert it to binary number system. //"
+
+- St_Task_15.js - 
+"Дано число n (n > 1). Верните из функции n-ное число Фибоначчи. // Given a number n (n > 1). Return the n-th Fibonacci number from the function."
