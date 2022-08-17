@@ -1,5 +1,4 @@
 # Stepik - Tasks for Cycles
-
 Description:
 
 - St_Task_09.js - 
