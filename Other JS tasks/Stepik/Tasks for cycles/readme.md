@@ -2,7 +2,7 @@
 Description:
 
 - St_Task_01.js - 
-"Найдите сумму  всех целых чисел от 1 до n включительно и верните из функции результат.// Find the sum of all integers from 1 to n inclusive and return the result from the function.//"
+"Найдите сумму  всех целых чисел от 1 до n включительно и верните из функции результат. // Find the sum of all integers from 1 to n inclusive and return the result from the function.//"
 
 - St_Task_09.js - 
 "Дано число n (n > 0). Верните из функции значение двойного факториала: n!! = n * (n - 2) * (n - 4) * ... * 2n!!=n∗(n−2)∗(n−4)∗...∗2 (или 1, в зависимости от четности n). 
