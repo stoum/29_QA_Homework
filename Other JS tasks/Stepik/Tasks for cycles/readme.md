@@ -5,6 +5,9 @@ Description:
 - St_Task_01.js - 
 "Найдите сумму  всех целых чисел от 1 до n включительно и верните из функции результат. // Find the sum of all integers from 1 to n inclusive and return the result from the function.//"
 
+- St_Task_02.js -
+"Даны два целых числа k и n. Верните из функции строку, которая состоит из чисел n, повторяющихся k раз, разделенных пробелом. Известно, что и k и n больше либо равно 1. // Two integers k and n are given. Return from the function a string that consists of n numbers repeated k times, separated by a space. It is known that both k and n are greater than or equal to 1.//"
+
 - St_Task_09.js - 
 "Дано число n (n > 0). Верните из функции значение двойного факториала: n!! = n * (n - 2) * (n - 4) * ... * 2n!!=n∗(n−2)∗(n−4)∗...∗2 (или 1, в зависимости от четности n). 
 // Given a number n (n > 0). Return the value of the double factorial from the function: n!! = n * (n - 2) * (n - 4) * ... * 2n!!=n∗(n−2)∗(n−4)∗...∗2 (or 1, depending on the parity n).//"
