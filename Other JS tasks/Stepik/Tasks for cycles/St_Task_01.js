@@ -1,8 +1,8 @@
 function testCycle(n) {
-    var x=0;
+    let x=0;
       for (i=0; i<=n; i++) {
           x+=i
       }
-    console.log(x);
+    return x
 }
 testCycle(25)
