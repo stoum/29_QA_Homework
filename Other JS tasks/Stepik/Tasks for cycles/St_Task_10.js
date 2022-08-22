@@ -7,6 +7,6 @@ function evklidAlgorithm(a, b) {
         b = b - a
       }
     }
-    console.log(a)
+    return a
 }
 evklidAlgorithm(13, 183)
