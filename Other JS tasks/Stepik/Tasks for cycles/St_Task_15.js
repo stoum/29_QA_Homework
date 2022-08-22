@@ -6,7 +6,7 @@ function testCycle(n) {
          x += a
          a = trans
         }
-        console.log(x)
+        return x
     }
     
 
