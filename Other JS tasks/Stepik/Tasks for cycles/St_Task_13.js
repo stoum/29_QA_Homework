@@ -4,6 +4,6 @@ function testCycle(n) {
     array.forEach((el) => {
     x += el
     })
-console.log(x)
+return x
 }
 testCycle(193)
