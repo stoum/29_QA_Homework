@@ -8,13 +8,13 @@ function testCycle(n) {
             x.unshift(0);
         }
     }
-    console.log(x.join(''))
+    return x.join('')
 }
     testCycle(19)
 
 /*  OR
 function testCycle(n) {
 x = +(n).toString(2); //Stepik - метод заблокирован
-console.log(x)
+return x
 }
 testCycle(19)*/
