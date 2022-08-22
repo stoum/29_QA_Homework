@@ -8,6 +8,6 @@ function testCycle(n) {
            x = "Простое число"
            }
 }
-console.log(x)
+return x
 }
 testCycle(9)
