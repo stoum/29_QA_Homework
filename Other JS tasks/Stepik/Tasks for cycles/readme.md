@@ -11,6 +11,9 @@ Description:
 - St_Task_03.js -
 "Даны числа a и b. Выведите строку с числами от а до b, разделенных пробелами. Известно, что b больше a. // Numbers "a" and "b" are given. Output a string with numbers from "a" to "b", separated by spaces. It is known that "b" is greater than "a"."
 
+- St_Task_04.js -
+"Даны числа a и b. Выведите строку с числами между а и b включая границы, отсортированными по возрастанию. Неизвестно, какое из чисел больше, но известно, что и a и b больше 0. // Numbers a and b are given. Output a string with numbers between a and b including borders, sorted in ascending order. It is not known which of the numbers is greater, but it is known that both a and b are greater than 0.//"
+
 - St_Task_09.js - 
 "Дано число n (n > 0). Верните из функции значение двойного факториала: n!! = n * (n - 2) * (n - 4) * ... * 2n!!=n∗(n−2)∗(n−4)∗...∗2 (или 1, в зависимости от четности n). 
 // Given a number n (n > 0). Return the value of the double factorial from the function: n!! = n * (n - 2) * (n - 4) * ... * 2n!!=n∗(n−2)∗(n−4)∗...∗2 (or 1, depending on the parity n).//"
