@@ -1,6 +1,5 @@
 # Stepik - Tasks for Cycles
 
-
 Description:
 
 - St_Task_01.js - 
