@@ -1,6 +1,5 @@
 # Stepik - Tasks for Cycles
 Description:
-
 - St_Task_01.js - 
 "Найдите сумму  всех целых чисел от 1 до n включительно и верните из функции результат. // Find the sum of all integers from 1 to n inclusive and return the result from the function.//"
 
