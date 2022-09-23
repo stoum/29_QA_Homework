@@ -1,3 +1,3 @@
-#QA for Everyone School
+QA for Everyone School
 
 -HW's
