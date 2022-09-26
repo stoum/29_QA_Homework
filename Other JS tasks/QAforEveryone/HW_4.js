@@ -38,9 +38,12 @@ simpleNumber(10)
 Нам нужно придумать программу дешифратор.
 */
 
+/*
 let text = "Ybrobrubr brabrrbrebr brtbrhbrebr brbbrebrsbrtbr brQbrAbr brebrvbrebrrbr"
 let newText = ""
 for (i=0; i < text.length; i+=3) {
     newText = newText+text[i]
 }
 console.log(newText)
+*/
+
