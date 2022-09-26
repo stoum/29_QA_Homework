@@ -12,7 +12,7 @@ for (i=2; i < 10; i++) {
 Для n = 10 результат должен быть 2,3,5,7.
 */
 /*
-function testCycle(k) {
+function simpleNumber(k) {
     
     for (n=2; n<k; n++) {
         for (i=2; i<=n; i++) {
@@ -28,7 +28,7 @@ function testCycle(k) {
         }
         }
 }
-testCycle(10)
+simpleNumber(10)
 */
 
 /*
@@ -38,3 +38,9 @@ testCycle(10)
 Нам нужно придумать программу дешифратор.
 */
 
+let text = "Ybrobrubr brabrrbrebr brtbrhbrebr brbbrebrsbrtbr brQbrAbr brebrvbrebrrbr"
+let newText = ""
+for (i=0; i < text.length; i+=3) {
+    newText = newText+text[i]
+}
+console.log(newText)
