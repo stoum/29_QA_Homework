@@ -11,7 +11,7 @@ for (i=2; i < 10; i++) {
 2.Напишите код, который выводит все простые числа из интервала от 2 до n.
 Для n = 10 результат должен быть 2,3,5,7.
 */
-
+/*
 function testCycle(k) {
     
     for (n=2; n<k; n++) {
@@ -29,7 +29,12 @@ function testCycle(k) {
         }
 }
 testCycle(10)
+*/
 
 /*
-
+Имеется зашифрованное предложение 
+“Ybrobrubr brabrrbrebr brtbrhbrebr brbbrebrsbrtbr brQbrAbr brebrvbrebrrbr”
+мы знаем, что оно означает “You are the best QA ever”.
+Нам нужно придумать программу дешифратор.
 */
+
