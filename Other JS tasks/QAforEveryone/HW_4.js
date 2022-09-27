@@ -73,7 +73,7 @@ coderDecoder('QAForEveryone is the best!')
 [ ‘(‘, ‘)’, ‘(‘, ‘)’, ‘)’] количество элементов и последовательность может быть разной.
 Нужно выяснить, у каждой ли скобки есть соответствующая пара (открывающая и закрывающая)
 */
-
+/*
 const arr = ['(', ')', '(', 7, 'u', ')', ')']
 countOpen = 0;
 countClose = 0;
@@ -91,3 +91,4 @@ if (countClose == countOpen) {
 } else {
   console.log ("More close brackets")
 }
+*/
