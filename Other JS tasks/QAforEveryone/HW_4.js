@@ -48,7 +48,7 @@ console.log(newText)
 */
 
 // 4.Придумайте свой собственный шифр, а также программу, которая будет шифровать и затем дешифровщик к нему
-
+/*
 function coderDecoder(text){
 
 code = ""
@@ -67,3 +67,5 @@ console.log(unCode)
 }
 
 coderDecoder('QAForEveryone is the best!')
+*/
+
