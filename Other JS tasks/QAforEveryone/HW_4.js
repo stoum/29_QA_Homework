@@ -68,4 +68,26 @@ console.log(unCode)
 
 coderDecoder('QAForEveryone is the best!')
 */
+/*
+5.У вас есть массив со скобками, предположим 
+[ ‘(‘, ‘)’, ‘(‘, ‘)’, ‘)’] количество элементов и последовательность может быть разной.
+Нужно выяснить, у каждой ли скобки есть соответствующая пара (открывающая и закрывающая)
+*/
 
+const arr = ['(', ')', '(', 7, 'u', ')', ')']
+countOpen = 0;
+countClose = 0;
+for (i=0; i<arr.length; i++){
+  if (arr[i] == '('){
+    countOpen += 1
+  } else if (arr[i] == ')') {
+    countClose +=1
+  }
+}
+if (countClose == countOpen) {
+  console.log ("All brackets have a pair")
+} else if (countClose < countOpen) {
+  console.log ("More open brackets")
+} else {
+  console.log ("More close brackets")
+}
