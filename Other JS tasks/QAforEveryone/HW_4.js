@@ -32,7 +32,7 @@ simpleNumber(10)
 */
 
 /*
-Имеется зашифрованное предложение 
+3.Имеется зашифрованное предложение 
 “Ybrobrubr brabrrbrebr brtbrhbrebr brbbrebrsbrtbr brQbrAbr brebrvbrebrrbr”
 мы знаем, что оно означает “You are the best QA ever”.
 Нам нужно придумать программу дешифратор.
@@ -47,3 +47,23 @@ for (i=0; i < text.length; i+=3) {
 console.log(newText)
 */
 
+// 4.Придумайте свой собственный шифр, а также программу, которая будет шифровать и затем дешифровщик к нему
+
+function coderDecoder(text){
+
+code = ""
+noise_1 = "%//&&\'"
+noise_2 = "a_//\'bel"
+for (i=0; i<text.length; i++){
+  code += noise_1+text[i]+noise_2
+}
+console.log(code)
+
+unCode = ""
+for(a=6; a<code.length; a+=15){
+  unCode += code[a]
+}
+console.log(unCode)
+}
+
+coderDecoder('QAForEveryone is the best!')
