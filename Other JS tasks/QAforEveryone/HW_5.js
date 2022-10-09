@@ -21,7 +21,9 @@
          1
 */
 /*
-let n=10
+//Вариант 1 ====Читерский через два consol.log'а и метод repeat====
+
+let n = 10
 let str = ""
 for (i=1; i<=n; i++) {
     str = ' '.repeat(n-i)
@@ -32,7 +34,6 @@ for (i=1; i<=n; i++) {
         str += k
     }
     console.log(str)
-   // str += "\n"
 }
 for (i=1; i<=n; i++) {
     str = ' '.repeat(n-(n-i))
@@ -43,10 +44,39 @@ for (i=1; i<=n; i++) {
         str += k
     }
     console.log(str)
-   // str += "\n"
 }
-//console.log(str)
 */
+
+//Вариант 2 ====Через один consol.log и стандартные циклы====
+
+let a = 9
+let sum = ''
+for (i = 1; i <= a + 1; i++) {
+    for (j = a; j >= i; j--) {
+        sum += ' '
+    } 
+    for (k = 1; k <= i; k++) {
+        sum += k % 10
+    } 
+    for (l = i - 1; l >= 1; l--) {
+        sum += l 
+    } 
+    sum += '\n'
+} 
+for (let i = a; i >= 1; i--) {
+    for (let j = a; j >= i; j--) {
+        sum += ' '
+    } 
+    for (k = 1; k <= i; k++) {
+        sum += k
+    } 
+    for (let l = i - 1; l >= 1; l--) {
+        sum += l 
+    } 
+    sum += '\n'
+} 
+console.log(sum)
+
 
 /*
 2 Нарисуйте елочку
@@ -56,7 +86,7 @@ for (i=1; i<=n; i++) {
  *******
 *********
 */
-
+/*
 let n=5
 let str = ""
 for (i=1; i<=n; i++) {
@@ -69,7 +99,7 @@ for (i=1; i<=n; i++) {
     }
     console.log(str)
 }
-
+*/
 /*
 3. Нарисуйте пирамидку
 1 
