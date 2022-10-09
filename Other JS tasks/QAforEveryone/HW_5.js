@@ -46,12 +46,12 @@ for (i=1; i<=n; i++) {
     console.log(str)
 }
 */
-
+/*
 //Вариант 2 ====Через один consol.log и стандартные циклы====
 
-let a = 9
+let a = 10
 let sum = ''
-for (i = 1; i <= a + 1; i++) {
+for (i = 1; i <= a; i++) {
     for (j = a; j >= i; j--) {
         sum += ' '
     } 
@@ -63,7 +63,7 @@ for (i = 1; i <= a + 1; i++) {
     } 
     sum += '\n'
 } 
-for (let i = a; i >= 1; i--) {
+for (i = a-1; i >= 1; i--) {
     for (let j = a; j >= i; j--) {
         sum += ' '
     } 
@@ -76,7 +76,7 @@ for (let i = a; i >= 1; i--) {
     sum += '\n'
 } 
 console.log(sum)
-
+*/
 
 /*
 2 Нарисуйте елочку
@@ -86,20 +86,24 @@ console.log(sum)
  *******
 *********
 */
-/*
-let n=5
-let str = ""
-for (i=1; i<=n; i++) {
-    str = ' '.repeat(" ")
-    for (j=1; j<=i; j++){
-        str += "*"
-    }
-    for(k=i-1; k>=1; k--){
-        str += "*"
-    }
-    console.log(str)
-}
-*/
+
+let a = 5
+let sum = ''
+let n = "*"
+for (i = 1; i <= a; i++) {
+    for (j = a; j >= i; j--) {
+        sum += ' '
+    } 
+    for (k = 1; k <= i; k++) {
+        sum += n
+    } 
+    for (l = i - 1; l >= 1; l--) {
+        sum += n 
+    } 
+    sum += '\n'
+} 
+console.log(sum)
+
 /*
 3. Нарисуйте пирамидку
 1 
