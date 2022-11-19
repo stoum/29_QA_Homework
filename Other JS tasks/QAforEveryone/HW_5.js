@@ -1,3 +1,4 @@
+
 /*нарисуй ромб
 
          1
@@ -86,7 +87,8 @@ console.log(sum)
  *******
 *********
 */
-
+/*
+// Вариант 1
 let a = 5
 let sum = ''
 let n = "*"
@@ -103,6 +105,27 @@ for (i = 1; i <= a; i++) {
     sum += '\n'
 } 
 console.log(sum)
+*/
+
+//Вариант 2
+let a = 5
+let sum = ''
+let n = "*"
+//for (let i = 1; i <= a; i++) {
+    //let sum = ''
+    // for (let j = a-1; j >= i; j--) {
+    //     sum += ' '
+    // } 
+for (let k = 1; k >= 9; k++) {
+        sum = sum + n
+} 
+    console.log(sum)
+    //for (l = i - 1; l >= 1; l--) {
+    //    sum += n 
+    //} 
+    //sum += '\n'
+//} 
+//console.log(sum)
 
 /*
 3. Нарисуйте пирамидку
