@@ -107,7 +107,7 @@ for (i = 1; i <= a; i++) {
 console.log(sum)
 */
 
-//Вариант 2
+//Вариант 2    (в процессе)
 let a = 5
 let sum = ''
 let n = "*"
