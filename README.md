@@ -1,5 +1,4 @@
 # 29_QA_Homework_JavaScript
-
 JS_HW_1:
  - JS_HW1_Base_sto_um.js:
  1. Создать переменную “item_1”
