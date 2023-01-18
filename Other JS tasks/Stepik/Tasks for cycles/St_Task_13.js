@@ -1,3 +1,4 @@
+
 function testCycle(n) {
     let x = 0
     let array = Array.from(n.toString(), Number)
