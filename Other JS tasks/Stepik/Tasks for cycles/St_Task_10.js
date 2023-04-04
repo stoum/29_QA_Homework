@@ -1,3 +1,4 @@
+
 function evklidAlgorithm(a, b) {
     while (a != b) {
       if (a > b) {
