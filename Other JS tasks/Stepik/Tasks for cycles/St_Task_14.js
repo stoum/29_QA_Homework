@@ -1,4 +1,3 @@
-
 function testCycle(n) {
     let x = []
     for (i=n; i>=1; i=Math.floor(i/2)) {
