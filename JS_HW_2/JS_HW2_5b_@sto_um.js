@@ -1,3 +1,4 @@
+
 /* Написать функцию, которая принимает на вход слово. Задача функции посчитать и вывести в консоль, сколько в слове гласных,
 и сколько согласных букв. e.g. function getWordStructure(word). В слове могут быть дефисы
 В консоли: 
@@ -22,3 +23,4 @@ const getWordStructure = function (word) {
 }
 getWordStructure('Ottollkaa')
 getWordStructure('Check---case')
+
