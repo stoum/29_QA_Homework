@@ -1,3 +1,4 @@
+
 /*
 1.1 Объявите две переменные: firstName и lastName.
 1.2 Запишите строку “John”в переменную firstName и строку “Adams”  в переменную lastName.
